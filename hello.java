@@ -5,6 +5,8 @@ class hello{
         System.out.println("Hello world!!!");
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
+        System.out.println("printing square of numbers");
         System.out.println(x*x);
+        sc.close();
     }
 }
