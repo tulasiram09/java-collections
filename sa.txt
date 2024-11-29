@@ -1,0 +1,15 @@
+String res = "";
+        Stack <String> s1 = new Stack<String>();
+        for (int i=0;i<s.length();i++){
+            char curr = s.charAt(i);
+            if(curr==' '){
+                while (!s1.isEmpty()){
+                    res += s1.pop();
+                }
+                res += ' ';
+            }
+            else{
+                s1.push(curr);
+            }
+        }
+        return res;
