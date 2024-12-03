@@ -10,6 +10,7 @@ class Salary{
         this.da = da;
         this.tax = tax;
     }
+    // adding a comment for pull request
     void show_gs(){
         float gs = 0.0f;
         float ts = 0.0f;
